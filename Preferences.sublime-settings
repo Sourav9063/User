@@ -1,0 +1,14 @@
+{
+	"color_scheme": "Packages/Materialize/schemes/Material Cobalt.tmTheme",
+	"font_face": "simonetta",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"SublimeLinter-clang",
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"margin": 0,
+	"theme": "Adaptive.sublime-theme"
+}

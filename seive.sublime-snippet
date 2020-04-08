@@ -1,0 +1,42 @@
+<snippet>
+	<content>
+
+
+		<![CDATA[
+vector<ulli>vPrime;
+
+void seive()
+{
+    ulli n = 100000$0;
+//suf(n);
+    bitset<10000000>arr;
+    arr.flip();
+    arr[1] = 0;
+    for (ulli p = 2; p * p <= n; p++)
+    {
+        if (arr[p])
+        {
+            for (ulli i = p * p; i <= n; i += p)
+            {
+                arr[i] = 0;
+            }
+        }
+    }
+// parray(arr,arr+(n+1));
+    for (ulli p = 1; p <= n; p++)
+    {
+        if (arr[p])
+        {
+            vPrime.pb(p);
+//puf(p);nl;
+        }
+    }
+}
+
+]]></content>
+
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sei</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

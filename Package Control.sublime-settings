@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Dark Neon Color Scheme",
+		"Darkula Color Scheme",
+		"EasyClangComplete",
+		"Material Monokai",
+		"Materialize",
+		"Oasis Theme",
+		"Package Control",
+		"RainbowBrackets",
+		"SublimeAStyleFormatter",
+		"SublimeLinter-clang"
+	]
+}
