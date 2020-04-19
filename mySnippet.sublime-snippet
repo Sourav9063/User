@@ -14,7 +14,8 @@ using namespace std;
 #define pf printf
 #define sf scanf
 
-#define pt printf(" * \n")
+#define pt cout<<"*"<<endl;
+#define nl cout<<endl;
 
 #define s2f(a,b) scanf("%d%d",&a,&b)
 #define s3f(a,b,c) scanf("%d%d%d",&a,&b,&c)

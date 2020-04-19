@@ -1,7 +1,7 @@
 {
 	"color_scheme": "Packages/Materialize/schemes/Material Glacier.tmTheme",
 	"font_face": "simonetta",
-	"font_size": 13,
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"SublimeLinter-clang",

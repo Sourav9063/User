@@ -13,6 +13,7 @@
 		"Package Control",
 		"RainbowBrackets",
 		"SublimeAStyleFormatter",
+		"SublimeGDB",
 		"SublimeLinter-clang"
 	]
 }
