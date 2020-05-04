@@ -9,7 +9,7 @@ void seive()
 {
     ulli n = 100000$0;
 //suf(n);
-    bitset<10000000>arr;
+    bitset<10000000>arr;//16900000 
     arr.flip();
     arr[1] = 0;
     for (ulli p = 2; p * p <= n; p++)
